@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import SeriousMod from '@/components/SeriousMod.vue'
 import AdvanceMod from '@/components/AdvanceMod.vue'
+import index from '@/views/home/index.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -20,6 +21,11 @@ const routes = [
     path:'/AdvanceMod',
     name:'AdvanceMod',
     component: AdvanceMod
+  },
+  {
+    path: '/index',
+    name: 'index',
+    component: index
   }
 ]
 

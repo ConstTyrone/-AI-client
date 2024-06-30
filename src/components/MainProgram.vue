@@ -47,7 +47,7 @@ export default {
     },
 
     generatepro: function(){
-      let StringSend="用以下关键词画一幅小朋友喜欢的画 可爱"+"小羊" +" "+"田野"+" "+"奔跑";
+      let StringSend="用以下关键词画一幅画 科技"+"汽车" +" "+" 公路"+"奔驰";
       console.log(StringSend);
       this.wst_img(StringSend);
     }

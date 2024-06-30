@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style>
-       body {
+       /* body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -46,7 +46,7 @@ export default {
             text-align: center;
             padding: 1em 0;
         } */
-        nav {
+        /* nav {
             display: flex;
             justify-content: center;
             padding: 1em 0;
@@ -115,5 +115,5 @@ export default {
             .content .placeholder-image, .content .placeholder-text {
                 width: 31%;
             }
-        }
-</style>
+        } */
+</style> 

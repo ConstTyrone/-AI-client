@@ -1,19 +1,30 @@
-# 客户端部分
+# 项目名称
+熠AI——一键生成HTML
 
-## Project setup
-```
-npm install
-```
+## 简介
+本项目旨在为客户提供由VIVO蓝心大模型支撑的、基于大语言模型文生图和图生文功能生成网页的网站。用户根据所需进行输入，也能可选的进行个性化生成，随即将通过AI自动生成一个满足需求的网页，包含用户指定的文字、图片等，同时安排页面布局，内容清晰明了，UI简介大方。
+## 功能
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- 功能1：登录注册
+- 功能2：一键生成HTML
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 技术栈
+Vue+ElementUI+jquery+websocket+python
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用方法
+下载本压缩包到本地后解压完毕，然后打开控制管理器运行npm run serve即可通过得到的链接进入该程序，项目配置已经在node_modules中配置完毕。
+
+## 配置
+本项目需要配置
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
+    "fullpage.js": "^4.0.25",
+    "jquery": "^3.7.1",
+    "pubsub-js": "^1.9.4",
+    "socket.io-client": "^4.7.5",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "websocket": "^1.0.34"
+
+
